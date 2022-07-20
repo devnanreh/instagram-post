@@ -1,0 +1,66 @@
+* {
+    margin: 0 auto;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  .post {
+    width: 600px;
+    height: 600px;
+    margin-top: 30px;
+    border: 1px solid #dfdfdf;
+    background-color: #dfdfdf;
+  }
+  
+  .post-header {
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .photo-profile {
+    margin: 0;
+  }
+  
+  .name-profile {
+    margin: 0px 0px 0px 10px;
+  }
+  
+  .options {
+    margin-right: 0px;
+  }
+  
+  .post-pic {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+  }
+  
+  .reactions {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    align-items: center;
+  }
+  .reactions .icon {
+    height: 25px;
+    margin: 0;
+    margin-right: 15px;
+  }
+  
+  .save {
+    margin: 0;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .likes,
+  .description {
+    margin: 10px;
+  }
